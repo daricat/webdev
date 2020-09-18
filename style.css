@@ -130,18 +130,17 @@ body {
 /* RAPPRESENT --- your life ---*/
 
 .represent {
+    padding: 119px 0 140px 0;
     background-color: #FFFFFF;
 }
 
 .represent__position {
     display: flex;
     flex-direction: row;
-    margin: 118px 420px 0;
-    padding: 0 0 141px 0;
 }
 
 .represent-article {
-    margin: 175px 242px 0 0;
+    margin: 175px 240px 0 269px;
 }
 
 .represent-title {
@@ -165,6 +164,12 @@ body {
 
 .represent-decription b {
     font-weight: 500;
+}
+
+.represent-photo {
+    height: fit-content;
+    margin: 1px 270px 0 0px;
+    display: block;
 }
 
 /*  COMMUNITY --- your life ---*/
