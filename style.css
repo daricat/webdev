@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrap {
+    max-width: 1600px;
+    margin: auto;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #000000;
+}
+
+.nav {
+    display: flex;
+    width: 582px;
+    padding: 25px 21px 22px 7px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nav-item:nth-child(2) {
+    position: relative;
+    right: 7px;    
+}
+
+.nav-logo {
+    position: relative;
+    right: -1px;
+    transition: all .50s ease-in;
+}
+
+.nav-logo:hover {
+    transform: rotate(360deg);
+}
+
+.nav-item:nth-child(4) {
+    position: relative;
+    right: -9px;  
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #A3A3A3;
+    transition: all .25s ease-in;
+}
+
+.nav-item a:hover {
+    border-bottom: solid 1px #ffffff;
+    color: #ffffff;
+}
+
+/* SECTION --- your life ---*/
+
+.your-life {
+    padding: 141px 0px 0px 1px;
+    top: 0;
+    background-image: url(./assets/images/1st_screen_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center -117px;
+    background-color: black;
+}
+
+.your-life__position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 0 5px;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.your-life-description {
+    margin: 27px 0 0;
+    width: 450px;
+    font-size: 18px;    
+    text-align: center;
+    line-height: 25px;
+    color: white;
+}
+
+.your-life-get-started {
+    display: flex;
+    margin: 29px 0 0 0;
+    padding: 15px 43px 15px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #00AFDB;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all .25s ease-in;
+}
+
+.your-life-get-started:hover {
+    background-color: #005e75;
+}
+
+.socials {
+    display: flex;
+    margin: 183px 0 86px 0;
+    justify-content: space-between;
+    width: 170px;
+}
+
+.socials-item {
+    transition: all .25s ease-in;
+    cursor: pointer;
+}
+
+.socials-item:hover {
+    transform: scale(1.3);
+}
